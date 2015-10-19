@@ -56,12 +56,12 @@ In my code, 9 kinds of algorithms will be tested, They are
 
 #Usage
 
-Please run '_*python sptest -h*_' for more information about how to run a test using this file.
+Please run '_**python sptest -h**_' for more information about how to run a test using this file.
 
 Tips:
 
     Do Not Run 4x4 Testing unless your spare time is really enough.
-    You can run a small test (10 test cases) via the command 'python sptest -e -a'.
+    You can run small tests via the command 'python sptest -e -c'.
     But some conclusions the author expects to reach may not be reached via a small test.
 
 Or, you can run '_**python sptest -a**_' for an automatic analysis to the _**sptest.sample.log**_ who is the log file of a 10000-case test using 3x3 sliding puzzles.
