@@ -22,7 +22,7 @@ def solve(heuristic_func, initial_node, method = 'A*', goal_node = None, revsPat
   method = method.lower()[0]
   if method not in ("a", "g", ""):
     raise TypeError("An unsupported search algorithm is given.")
-
+  
   if goal_node == None:
     bi = False
   else:
