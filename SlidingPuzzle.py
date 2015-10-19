@@ -7,7 +7,7 @@ __date__ = "16:45, Oct. 16th, 2015"
 """ This is library of the realization of sliding puzzle problem in the project of Comparison of Search Algorithms.
 A one-dimensional list is used to represent a state.
 e.g. In the state below
-  [ N11, N12, N13,
+  [ N11, N12, N13, 
     N21, N22, N23,
     N31, N32, N33 ]
   Nij represents the number in the square locating at the joint of row i and col j.
