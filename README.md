@@ -56,6 +56,10 @@ In my code, 9 kinds of algorithms will be tested, They are
 
 #Usage
 
+Environment:
+
+    Python 3.4
+  
 Please run '_**python sptest -h**_' for more information about how to run a test using this file.
 
 Tips:
