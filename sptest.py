@@ -5,9 +5,9 @@ __license__ = "MIT"
 __version__ = "1.0.1"
 __date__ = "23:31, Oct. 17th, 2015"
 """ This is the testing program, and the main program, of the project of Comparison of Search Algorithms.
-Sliding Puzzle Problem is generated for testing A* Algorithms.
+Sliding Puzzle Problem is generated for testing A* Algorithms.  
 
-Please see the detailed testing conclusion at the end of this file ( begins at about Line 155).
+Please see the detailed testing conclusion at the end of this file ( begins at about Line 256).
 This test program will generate a logger file during testing """
 
 import time, logging, sys, getopt, os
