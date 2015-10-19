@@ -377,7 +377,7 @@ def analyze(log_file):
     conclusions.append("Conclusion 4.2 reached. Greedy Best-First Search, in general, is faster.")
     completed_conclusion = completed_conclusion + 1
     if GBFS_not_always_faster == True:
-      print("not pass: assert s_data['GBFS-manhattan'][case_no][1] <= s_data['A*-manhattan'][case_no][1] and s_data['GBFS-straightLine'][case_no][1] <= s_data['A*-straightLine'][case_no][1] and s_data['GBFS-squaredEuclid'][case_no][1] <= s_data['A*-squaredEuclid'][case_no][1]")
+      print("pass: assert s_data['GBFS-manhattan'][case_no][1] > s_data['A*-manhattan'][case_no][1] or s_data['GBFS-straightLine'][case_no][1] > s_data['A*-straightLine'][case_no][1] or s_data['GBFS-squaredEuclid'][case_no][1] > s_data['A*-squaredEuclid'][case_no][1]")
       conclusions.append("Conclusion 4.3 reached. Greedy Best-First Search is not always faster.")
       completed_conclusion = completed_conclusion + 1
     else:
