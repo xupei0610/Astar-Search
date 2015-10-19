@@ -21,7 +21,7 @@ The complete code contains 4 file except the readme file:
     
   3. _**sptest.py**_ is the **main** program who can run test.
     
-  4. _**sptest.sample.log**_ is a testing log who recoded a 10000-case testing results the author ran on Oct. 17th.
+  4. _**sptest.sample.log**_ is a testing log who recoded a 10000-case test's results the author ran on Oct. 17th.
   
   The sptest file uses this file for a sample testing analysis.
 
